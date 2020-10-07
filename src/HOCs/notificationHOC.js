@@ -9,5 +9,3 @@ const withToastNotificationHOC = (Component) => {
   }
 
 export default withToastNotificationHOC;
-
-//do not change
