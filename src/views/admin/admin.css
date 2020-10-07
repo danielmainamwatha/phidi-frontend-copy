@@ -1,0 +1,13 @@
+.css-1uccc91-singleValue {
+    color: #6d74cc!important;
+    font-weight: 550;
+}
+
+.css-1wa3eu0-placeholder {
+    color: rgb(180, 172, 172)!important;
+}
+
+.comments-textarea::placeholder {
+    color: rgb(180, 172, 172)!important;
+    font-weight: 500;
+}

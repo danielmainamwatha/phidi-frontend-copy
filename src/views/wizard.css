@@ -1,0 +1,387 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  
+.wizard-div {
+    /* min-height: 100vh; */
+    padding-top: 100px;
+    background: linear-gradient(to right top, #2a41e8, #3248e8, #3a4ee7, #4155e6, #485be5);
+}
+
+.aesthetic-items-container {
+    transform: translateY(0%);
+}
+
+input:focus {
+    border-color: #ffffff!important;
+}
+textarea:focus {
+    border-color: #ffffff!important;
+}
+
+.switch-label {
+    position: relative;
+    top: -10px;
+    font-size: 18px!important;
+    margin-left: 15px;
+    color: #a1a9e4;
+}
+
+.wizard-left {
+    height: 100%;
+    position: 'fixed';
+}
+
+.wizard-right {
+    height: 100%;
+}
+
+.wizard-input {
+    box-shadow: none;
+    border-bottom: solid 0.1px #a1a9e4!important;
+    border-left-color: transparent;
+    border-radius: 0px;
+    background-color: none;
+    background: transparent;
+    color: #ffffff;
+}
+
+.wizard-input::placeholder {
+    color: #a1a9e4;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.wizard-input:focus {
+    box-shadow: none;
+    border-bottom: solid 0.5px #ffffff!important;
+    border-radius: 0px;
+    color: #ffffff;
+}
+
+.wizard-budget-input {
+    box-shadow: none;
+    border-bottom: solid 0.1px #8793eb !important;
+    border-radius: 0px;
+    background-color: none;
+    background: transparent;
+    color: #ffffff!important;
+}
+
+.wizard-budget-input::placeholder {
+    color: #8793eb;
+}
+
+.wizard-text-area {
+    color: #ffffff!important;
+    background: none;
+    border: 0.1px solid #aab1e7!important;
+}
+
+.wizard-text-area::placeholder {
+    color: #8793eb;
+}
+
+.wizard-text-area-input::placeholder {
+    color: #9da6e9;
+}
+
+.wizard-checkbox {
+    color: #aab1e7!important;
+}
+
+.wizard-radio {
+    color: #aab1e7!important;
+}
+
+.section-headline span{
+    display: inline-block;
+    color: #aab1e7;
+    margin-left: 10px;
+}
+
+.DatePicker__calendarContainer {
+    z-index: 1000!important;
+}
+
+span.checkbox-icon {
+    border: 2px solid #aab1e7!important;
+    padding: 10px!important;
+}
+
+.project-details-headers {
+    font-size: 19px!important;
+    color: #ffffff;
+    font-weight: 400!important;
+    margin-bottom: 13px;
+}
+
+[contenteditable][placeholder]:empty:before {
+    content: attr(placeholder);
+    position: absolute;
+    color: #a1a9e4;
+    background-color: transparent;
+  }
+
+/* ---------------------------------- */
+/* Custom Upload Button
+------------------------------------- */
+.uploadButtonx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  .uploadButtonx .uploadButton-inputx {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .uploadButtonx .uploadButton-buttonx {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      height: 44px;
+      padding: 10px 18px;
+      cursor: pointer;
+      border-radius: 4px;
+      color: #ffffff;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      flex-direction: row;
+      transition: 0.3s;
+      margin: 0;
+      outline: none;
+      box-shadow: 0 3px 10px rgba(102,103,107,0.1);
+  }
+  
+  .uploadButtonx .uploadButton-buttonx:hover {
+      background-color: #ffffff;
+      box-shadow: 0 4px 12px rgba(102,103,107,0.15);
+      color: #2a41e8;
+  }
+  
+  .uploadButtonx .uploadButton-file-namex {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      flex: 1;
+      box-sizing: border-box;
+      padding: 0 10px;
+      padding-left: 18px;
+      min-height: 42px;
+      top: 1px;
+      position: relative;
+      color: #a1a9e4;
+      background-color: transparent;
+      overflow: hidden;
+      line-height: 22px;
+  }
+
+.wizard-button {
+    font-size: 14px!important;
+    font-weight: 600!important;
+    background-color: #ffffff!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2a41e8!important;
+}
+
+.options-button {
+    background-color: #ffffff!important;
+    box-shadow: none!important;
+    color: #2a41e8!important;
+    background: #f7f7f7!important;
+    border-radius: 25px!important;
+}
+
+.options-button:hover {
+    background: #2a41e8!important;
+    color: #ffffff!important;
+}
+
+.drag-icon {
+    position: absolute;
+	right: 30px;
+    top: 50%;
+    font-size: 25px;
+	transform: translateY(-50%);
+	opacity: 1;
+	box-shadow: 0px 0px 15px 15px #ffffff !important;
+    background-color: #fff;
+    z-index: 1000;
+    color: #2a41e8;
+}
+
+@-webkit-keyframes wizard-button {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes wizard-button {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.wizard-button:hover
+{
+    -webkit-animation: wizard-button 1s ease;
+    animation: wizard-button 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    box-shadow: 5px 5px 7px 1px rgba( 0, 0, 0,0.4)!important; 
+    -webkit-box-shadow: 5px 5px 7px 1px rgba( 3, 3, 3, 0.4)!important;
+}
+
+
+.gray-button {
+    background: #162ee7!important;
+    color: #6170e4!important;
+    box-shadow: none!important;
+}
+.jobRankItemContainer {
+    width: 100%!important;
+    margin-bottom: 30px;
+    min-height: 100px;
+    background: rgb(125, 139, 223);
+}
+.jobRankItem {
+    background: white!important;
+    height: 100%;
+}
+.rankItemsListContainer {
+    background: transparent!important;
+}
+
+.react-sweet-progress-symbol {
+    color: #ffffff!important;
+    font-weight: 500!important;
+}
+
+.react-sweet-progress-line {
+    height: 18px;
+    padding-left: 0px!important;
+}
+
+.react-sweet-progress-line-inner-status-active{
+    height: 18px;
+}
+.react-sweet-progress-line-inner {
+    min-height: 100%;
+}
+.compact-list-layout .job-listing {
+    padding-right: 35px;
+}
+
+.input-keyword {
+    color: #ffffff;
+}
+
+
+
+@media (min-width: 576px) {
+    .container-fluid {
+        margin-top: -82px;
+        }
+    }
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        /* For portrait layouts only */
+        #header > div > div.right-side.d-flex.align-items-center > div > div > div{
+            color: #303342!important;
+            font-weight: 600;
+      }
+    }
+
+@media (max-width: 576px) {
+    /* wizard stylings */
+    #wrapper > div > div > div > div.col-xl-6.col-lg-6.wizard-div > div > div.col-xl-12.col-lg-12 > input {
+        padding-left: 3px!important;   
+        padding-right: 3px!important;
+    }
+
+
+        #header > div > div.right-side.d-flex.align-items-center > div > div > div{
+        color: #303342!important;
+        font-weight: 600;
+    }
+
+    .pageTitle {
+        line-height: 80%!important;
+
+    }
+
+    .wizard-div-top {
+        min-height: 20vh!important;
+    }
+
+    .wizard-div-top .row {
+        position: static!important;
+        min-height: 20%;
+    }
+
+    .wizard-div {
+        padding-top: 0px!important;
+        min-height: 70vh!important;
+        overflow-y: scroll;
+    }
+}
