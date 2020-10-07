@@ -6,4 +6,5 @@ const resolve_base_url = () => {
 }
 export default resolve_base_url;
 
-// rememmber to add /api/v1 preffix 
+// rememmber to add /api/v1 preffix
+ 
