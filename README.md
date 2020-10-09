@@ -1,6 +1,7 @@
 ## Description
 A two-sided platform between technical freelancers and clients
-with a project configuration wizard on the client side.
+with a project configuration wizard on the client side.The app facilitates addition of projects to be bidded on,
+uploading of sketches and payments via stripe.
 
 ### Dependencies
 * [React.js](https://reactjs.org/) - a javascript library for building user interfaces
