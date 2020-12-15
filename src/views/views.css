@@ -1,0 +1,235 @@
+/* hide up/down arrows ("spinners") on input fields marked type="number" */
+.no-spinners {
+    -moz-appearance:textfield;
+  }
+  
+  .no-spinners::-webkit-outer-spin-button,
+  .no-spinners::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: rgba(42, 65, 232, 0.18);
+    border-radius: 25px;
+    border: 0px solid #000101;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 39px;
+    border-radius: 7px;
+    background: rgb(42, 65, 232);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -3.6px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(42, 65, 232, 0.18);
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    background: rgba(42, 65, 232, 0.18);
+    border-radius: 25px;
+    border: 0px solid #000101;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 39px;
+    border-radius: 7px;
+    background: rgb(42, 65, 232);
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 12.8px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 39px 0;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: rgba(42, 65, 232, 0.18);
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: rgba(42, 65, 232, 0.18);
+    border: 0px solid #000101;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  }
+  input[type=range]::-ms-thumb {
+    box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 39px;
+    border-radius: 7px;
+    background: rgb(42, 65, 232);
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: rgba(42, 65, 232, 0.18);
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: rgba(42, 65, 232, 0.18);
+  }
+
+  .job-post-objective{
+    color: #2a41e8;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+  }
+  .confirmation-modal {
+    position:fixed;
+    background: white;
+    width: 95%;
+    height: auto;
+    top:40%;
+    transform: translate(0%,-50%);
+  }
+
+  .user-admin-table {
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.12)!important;
+    padding: 5px!important;
+  }
+
+  table.basic-table th{
+    background: #ffffff!important;
+    color: black;
+    font-weight: 600;
+  }
+
+  #wrapper > div > div.container.margin-bottom-30 > div:nth-child(1) > div > div > div:nth-child(4) > button {
+    margin-left: 10px;
+    background: black;
+  }
+
+  #wrapper > div > div.container.margin-top-70.margin-bottom-30 > div > div.col-xl-3.col-lg-4 > div > div {
+    margin-bottom: 5px!important;
+    padding-top: 10px;
+  }
+
+  .bid-note {
+    width: 80%;
+  }
+
+  .bio-section {
+    background-color: #f3ebf8;
+    border-radius: 12px;
+    padding: 15px;
+    color: rgb(63, 63, 63);
+    width: 80%;
+  }
+
+  .css-2b097c-container{
+    width: 100%;
+  }
+
+  .profile-error {
+    position: relative;
+    color: red;
+    font-size: 12px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .admin-nav-links {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 3px;
+    font-weight: 700;
+  }
+
+  .view-bio-btn {
+    cursor: pointer;
+    color: #2a41e8!important;
+  }
+  .view-bio-btn:hover {
+    font-weight: 700;
+  }
+
+  @media screen and (max-width: 800px) {
+    .bid-note {
+      width: 100%;
+    }
+    .attachment-icon {
+      margin-top: 20px;
+    }
+    #wrapper > div > div.single-page-header > div > div > div > div > div.right-side > div {
+      margin-left: 20px;
+    }
+    #wrapper > div > div.single-page-header > div > div > div > div > div.left-side > div > div {
+      width: 30vw!important;
+    }
+    #wrapper > div > div.container > div {
+      padding-top: 50px;
+    }
+    .sidebar-widget {
+      margin-top: 4vh;
+    }
+    .sidebar-admin {
+      padding-top: 30px;
+    }
+    .offset-comments {
+      margin-top: 20px;
+    }
+
+    .bidding-widget {
+      margin-top: 20vh;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .freelancer-avatar {
+      display: none;
+    }
+    .freelancer-name{
+      margin: 0 0 0 0px!important;
+      font-size: 14px;
+    }
+    .bid-note {
+      width: 100%;
+    }
+    .attachment-icon {
+      margin-top: 20px;
+    }
+
+    #wrapper > div > div.container > div > div.col-xl-9.col-lg-8.content-left-offset > h3 {
+      margin-top: 50px;
+    }
+    #wrapper > div > div.container.margin-bottom-30 > div:nth-child(1) > div > div > div:nth-child(5){
+      margin-top: 0px;
+      margin: auto;
+    }
+}
